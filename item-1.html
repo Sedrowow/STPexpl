@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>BPDU Antwort</title>
+</head>
+<body>
+	<div class="cd-fold-content single-page">
+		<h2>Was ist ein BPDU?</h2>
+		<em>Ein BPDU ist eine art Schutz für Spanning-Tree-Protokolle</em>
+		<p>
+			Alle Spanning-Tree-Protokolle verwenden einen speziellen Frametyp namens Bridge Protocol Data Units (BPDUs), um miteinander zu kommunizieren.
+		</p>
+		<p>
+		Zum Austausch von Konfigurationsnachrichten wird eine Bridge Protocol Data Unit (BPDU) als Multicast-Paket genutzt, das standardmäßig alle zwei Sekunden versendet wird und damit eine nicht unerhebliche Netzlast verursacht.
+		</p>
+		<p>
+		Das Spanning Tree Protocol kennt zwei verschiedene Typen der BPDUs: die Configuration BPDU und die Topology Change Notification BPDU (TCN)
+		</p>
+		<p>
+		Configuration BPDUs sind für die Berechnung der Netzwerktopologie zuständig und die Topology Change Notification für Mitteilungen über Änderungen innerhalb der Netzwerktopologie.
+		</p>
+	</div>
+</body>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
